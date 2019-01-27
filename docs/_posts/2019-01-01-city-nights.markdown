@@ -4,7 +4,7 @@ subtitle: ""
 author: ""
 avatar: ""
 image: ""
-date:   
+date: 2015-04-25 12:12:12
 ---
 
 ### 1. Film screenings and Q&As in collaboration with Queers in Shorts
