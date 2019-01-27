@@ -16,3 +16,10 @@ permalink: "/:title"
 keywords: Queer, Festival, Cambridge
 author: q+
 url: "https://cihernand.github.io/queerfest" # the base hostname & protocol for your site
+
+# Navigation
+navigationLinks:
+  - {permalink: "/", text: "Home"}
+
+topNavigationLinks:
+  - {permalink: "/organizers/", text: "Organizers"}
