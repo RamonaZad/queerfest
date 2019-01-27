@@ -4,7 +4,7 @@ A Simple, Clean and responsive modern blog for jekyll.
 
 ## [Live Demo](http://inded.github.io/Jekyll_modern-blog/)
 
-## [Developed Site URL] (https://cihernand.github.io/queerfest)
+## Developed Site URL (https://cihernand.github.io/queerfest)
 
 ## Attributions
 Based off of this [article from Codrops](http://tympanus.net/codrops/?p=24222)
