@@ -2,8 +2,8 @@
 title:  "Confirmed events"
 subtitle: ""
 author: ""
-avatar: ""
-image: ""
+avatar: "img/authors/queer.png"
+image: "img/f.jpg"
 date: 2019-01-27 12:12:12
 ---
 
