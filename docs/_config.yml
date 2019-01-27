@@ -1,7 +1,18 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+
 # Site settings
-title: Modern Blog
-description: Modern-Blog A Elegant template for Jekyll
-keywords: Modern, Blogging, Fun
-author: Wferr
-baseurl: "" # the subpath of your site, e.g. /blog/
+title: Queer Festival of Colours
+email: "addmail@mail.com"
+description: Queer Festival of Colours at Cambridge,UK.
+baseurl: "/" # the subpath of your site, e.g. /blog/
+permalink: "/:title"
+keywords: Queer, Festival, Cambridge
+author: q+
 url: "https://cihernand.github.io/queerfest" # the base hostname & protocol for your site
