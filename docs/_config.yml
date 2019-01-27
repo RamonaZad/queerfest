@@ -20,6 +20,12 @@ url: "https://cihernand.github.io/queerfest" # the base hostname & protocol for 
 # Navigation
 navigationLinks:
   - {permalink: "/", text: "Home"}
+  - {permalink: "/organizers/", text: "Organizers"}
 
 topNavigationLinks:
-  - {permalink: "/organizers/", text: "Organizers"}
+
+
+
+# Organizers Block
+teamBlockTitle: " "
+aboutUs: "The festival team is composed ..."
