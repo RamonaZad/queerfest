@@ -1,10 +1,10 @@
 ---
 title:  "Confirmed events"
-subtitle: "A Beautiful shot during the night."
-author: "cyborg"
-avatar: "img/authors/wferr.png"
-image: "img/b.jpg"
-date:   2019-01-01 12:12:12
+subtitle: ""
+author: ""
+avatar: ""
+image: ""
+date:   
 ---
 
 ### 1. Film screenings and Q&As in collaboration with Queers in Shorts
