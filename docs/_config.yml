@@ -11,7 +11,7 @@ permalink: pretty
 title: Queer Festival of Colours
 email: "addmail@mail.com"
 description: Queer Festival of Colours at Cambridge,UK.
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: "/:title"
 keywords: Queer, Festival, Cambridge
 author: q+
