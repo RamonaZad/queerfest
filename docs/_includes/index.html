@@ -34,7 +34,7 @@
                             </clipPath>
                         </defs>
                         <image clip-path="url(#{{ post.id }}-clip-path)" width="200" height="120"
-                               xlink:href="{{ post.image }}"></image>
+                               xlink:href="{{ post.image | prepend: site.baseurl }}"></image>
                     </svg>
                     <div class="card__content">
                         <i class="card__btn-close fa fa-times"></i>
@@ -44,7 +44,7 @@
                         </div>
                         <div class="card__copy">
                             <div class="meta">
-                                <img class="meta__avatar" src="{{ post.avatar }}"/>
+                                <img class="meta__avatar" src="{{ post.avatar | prepend: site.baseurl }}"/>
                                 <span class="meta__author">{{ post.author }}</span>
                                 <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
                             </div>
@@ -73,11 +73,11 @@
 
 </div>
 <!-- JS -->
-<script src="js/vendors/trianglify.min.js"></script>
-<script src="js/vendors/TweenMax.min.js"></script>
-<script src="js/vendors/ScrollToPlugin.min.js"></script>
-<script src="js/vendors/cash.min.js"></script>
-<script src="js/card-modern-blog.js"></script>
-<script src="js/modern-blog.js"></script>
+<script src="{{ "js/vendors/trianglify.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "js/vendors/TweenMax.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "js/vendors/ScrollToPlugin.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "js/vendors/cash.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "js/card-modern-blog.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "js/modern-blog.js" | prepend: site.baseurl }}"></script>
 </body>
 </html>
