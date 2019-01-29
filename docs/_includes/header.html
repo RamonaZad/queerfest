@@ -25,4 +25,36 @@
         }
     </script>
 </head>
+
+<body class="body">
+
+<div class="container">
+    <header class="header">
+        <h1>Queer Festival of Colours<span>Comming soon to Cambridge,UK.</span></h1>
+
+        <nav class="links">
+            <a href="#"><tt>main</tt></a>
+            <a href="#"><tt>themes</tt></a>
+            <a href='{{ site.url }}/organizers/'>organizers</a>
+        </nav>
+        {% include about.html %}
+    </header>
+
+    {{ content }}
+
+    {% include index.html %}
+
+    {% include footer.html %}
+</div>
+
+<!-- JS -->
+<script src="{{ "js/vendors/trianglify.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "js/vendors/TweenMax.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "js/vendors/ScrollToPlugin.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "js/vendors/cash.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "js/card-modern-blog.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "js/modern-blog.js" | prepend: site.baseurl }}"></script>
+
+
+</body>
 </html>
