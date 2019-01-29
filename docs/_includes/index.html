@@ -1,83 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-
-<body class="body">
-
-<div class="container">
-    <header class="header">
-        <h1>Queer Festival of Colours<span>Comming soon to Cambridge,UK.</span></h1>
-
-        <nav class="links">
-            <a href="#"><tt>main</tt></a>
-            <a href="#"><tt>themes</tt></a>
-            <a href="/organizers/"><tt>organizers</tt></a>
-        </nav>
-        <h1><span>50 years after the Stonewall riots, which were started by trans women of colour, we wish to celebrate and acknowledge the work, importance and involvement of QT of colour in the LGBTQ+ movement. We will do this by organising a four-day event of talks, workshops, film screenings and art exhibition. The activities aim to raise awareness about representation, intersectionality and how to move forward and build bridges in the era of identity politics and disenfranchisement.</span></h1>
-
-    </header>
-
-    <div class="content">
-        <!-- trianglify pattern container -->
-        <div class="pattern pattern--hidden"></div>
-        <!-- cards -->
-        <div class="wrapper">
-            {% for post in site.posts %}
-            <div class="card" data-id="{{ post.id }}">
-                <div class="card__container card__container--closed">
-                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
-                         preserveAspectRatio="xMidYMid slice">
-                        <defs>
-                            <clipPath id="{{ post.id }}-clip-path">
-                                <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
-                            </clipPath>
-                        </defs>
-                        <image clip-path="url(#{{ post.id }}-clip-path)" width="200" height="120"
-                               xlink:href="{{ post.image | prepend: site.baseurl }}"></image>
-                    </svg>
-                    <div class="card__content">
-                        <i class="card__btn-close fa fa-times"></i>
-                        <div class="card__caption">
-                            <h2 class="card__title">{{ post.title }}</h2>
-                            <p class="card__subtitle">{{ post.subtitle }}</p>
+<div class="content">
+    <!-- trianglify pattern container -->
+    <div class="pattern pattern--hidden"></div>
+    <!-- cards -->
+    <div class="wrapper">
+        {% for post in site.posts %}
+        <div class="card" data-id="{{ post.id }}">
+            <div class="card__container card__container--closed">
+                <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
+                     preserveAspectRatio="xMidYMid slice">
+                    <defs>
+                        <clipPath id="{{ post.id }}-clip-path">
+                            <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
+                        </clipPath>
+                    </defs>
+                    <image clip-path="url(#{{ post.id }}-clip-path)" width="200" height="120"
+                           xlink:href="{{ post.image | prepend: site.baseurl }}"></image>
+                </svg>
+                <div class="card__content">
+                    <i class="card__btn-close fa fa-times"></i>
+                    <div class="card__caption">
+                        <h2 class="card__title">{{ post.title }}</h2>
+                        <p class="card__subtitle">{{ post.subtitle }}</p>
+                    </div>
+                    <div class="card__copy">
+                        <div class="meta">
+                            <img class="meta__avatar" src="{{ post.avatar | prepend: site.baseurl }}"/>
+                            <span class="meta__author">{{ post.author }}</span>
+                            <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
                         </div>
-                        <div class="card__copy">
-                            <div class="meta">
-                                <img class="meta__avatar" src="{{ post.avatar | prepend: site.baseurl }}"/>
-                                <span class="meta__author">{{ post.author }}</span>
-                                <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
-                            </div>
-                            {{ post.content }}
-                        </div>
+                        {{ post.content }}
                     </div>
                 </div>
             </div>
-            {% endfor %}
-            <!-- /cards -->
         </div>
+        {% endfor %}
+        <!-- /cards -->
     </div>
-    <!-- /container -->
-    <header class="header">
-      <nav class="links">
-          <a href="#"><tt>sponsors,funding and partners</tt></a>
-    </nav>
-    <header class="header">
-      <nav class="links">
-          <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
-          <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
-          <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-          <a href="#"><i class="fa fa-tumblr-square fa-3x"></i></a>
-      </nav>
-    </header class="header">
-
 </div>
-<!-- JS -->
-<script src="{{ "js/vendors/trianglify.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "js/vendors/TweenMax.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "js/vendors/ScrollToPlugin.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "js/vendors/cash.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "js/card-modern-blog.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "js/modern-blog.js" | prepend: site.baseurl }}"></script>
-</body>
+<!-- /container -->
 </html>
