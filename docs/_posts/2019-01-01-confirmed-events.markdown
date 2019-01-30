@@ -20,6 +20,7 @@ Q&A with the cast member, trans activist Sanni Est.
 * **Rainbow cupcakes!**  Baking  with *Rosa Colaco*
 * ASCII ArTe **Cyberlgbtq+activism** with *Claudia Hernandez*
 * **Recycled bag printing** with *Rosa Colaco*
+* **making it go bold** without doing it  *italic*
 
 ### 3. Social events
 * Club night in collaboration with Queer Women in Cambridge
