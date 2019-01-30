@@ -3,7 +3,7 @@ title:  "Collaborators"
 subtitle: ""
 author: ""
 avatar: "img/authors/queer.png"
-image: "img/.jpg"
+image: "img/quir_street_tag.jpg"
 date: 2019-01-27 12:12:12
 ---
 
