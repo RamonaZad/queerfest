@@ -17,15 +17,6 @@ keywords: Queer, Festival, Cambridge
 author: q+
 url: "https://cihernand.github.io/queerfest" # the base hostname & protocol for your site
 
-# Navigation
-navigationLinks:
-  - {permalink: "/", text: "Home"}
-  - {permalink: "/organizers/", text: "Organizers"}
-
-topNavigationLinks:
-
-
-
 # Organizers Block
 teamBlockTitle: " "
 aboutUs: "The festival team is composed ..."
